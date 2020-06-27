@@ -9,11 +9,13 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
-    <%= render '../google_analytics' %>
+
   </head>
 
   <body>
+    <%= render 'shared/google-analytics' %>
     <%= render 'shared/navbar' %>
+    <%= render 'shared/search' %>
     <%= render 'shared/flashes' %>
 
     <%= yield %>
