@@ -1,0 +1,2 @@
+class Bboy < ApplicationRecord
+end
